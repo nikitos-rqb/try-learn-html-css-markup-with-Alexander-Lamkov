@@ -95,7 +95,7 @@
                 </li>
             </ul>
         </section>
-        <section class="training-types">
+        <section class="training-types container-wide">
             <h2 class="visually-hidden">Training types</h2>
             <ul class="training-types-list">
                 <li class="training-types-item">
@@ -136,7 +136,7 @@
                         <h3 class="join-us-form-title backdrop-title title-big centered" data-title="Go!">
                             Start here
                         </h3>
-                        <div class="join-us-form-subtitle">
+                        <div class="join-us-form-subtitle section-description">
                             fill the form below to start your journey
                         </div>
                     </header>
@@ -153,6 +153,104 @@
                     </div>
                 </form>
             </div>
+            </div>
+        </section>
+        <section class="location container-wide">
+            <img src="./images/map.jpg" alt="Branches on the map" class="location-map-image" width="960" height="600">
+            <div class="location-body">
+                <div class="location-header">
+                    <h2 class="location-title backdrop-title title-medium centered" data-title="Look">Find us near you</h2>
+                    <div class="location-description">
+                        <p>Nec suas signiferumque id. An eum labore commodo principes. Usu diam noluisse cu, nam adipisci</p>
+                    </div>
+                    <a href="" class="location-button button transparent">View more</a>
+            </div>
+        </section>
+        <section class="family container-wide">
+            <header class="family-header container">
+                <h2 class="family-title backdrop-title title-big centered" data-title="Part">be a part of our fit family</h2>
+                <div class="family-description section-description">
+                    <p>Training helps you think and feel better. join us!</p>
+                </div>
+            </header>
+            <div class="family-body container-wide">
+                <img src="./images/family.jpg" alt="Training people" class="family-image" width="414" height="479" loading="lazy">
+                <img src="./images/family-2.jpg" alt="Training people" class="family-image" width="744" height="479" loading="lazy">
+                <img src="./images/family-3.jpg" alt="Training people" class="family-image" width="396" height="479" loading="lazy">
+                <img src="./images/family-4.jpg" alt="Training people" class="family-image" width="396" height="479" loading="lazy">
+                <img src="./images/family-1.jpg" alt="Training people" class="family-image" width="414" height="479" loading="lazy">
+            </div>
+        </section>
+        <section class="calculate">
+            <div class="calculate-inner container">
+                <div class="calculate-body">
+                    <h2 class="calculate-title backdrop-title title-medium" data-title="BMI">Input your BMI</h2>
+                    <div class="calculate-description">
+                        <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
+                    </div>
+                    <form class="calculate-form">
+                        <div class="calculate-form-boby">
+                            <label class="visually-hidden" for="height">Height</label>
+                            <input type="number" id="height"   class="calculate-input input" placeholder="Height / cm">
+                            <label class="visually-hidden" for="weight">Weight</label>
+                            <input type="number" id="weight"   class="calculate-input input" placeholder="Weight / kg">
+                            <label class="visually-hidden" for="age">Age</label>
+                            <input type="number" id="age"   class="calculate-input input" placeholder="Age">
+                            <label class="visually-hidden" for="gender">Gender</label>
+                            <input type="number" id="gender"   class="calculate-input input" placeholder="Gender">
+
+
+                            <label for="gender" class="visually-hidden">Gender</label>
+                            <select name="gender" id="gender" class="calculate-input input">
+                                <option value="" disabled selected>Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+
+
+                            <label for="activity-factor" class="visually-hidden">Gender</label>
+                            <select name="gender" id="activity-factor" class="calculate-input input wide">
+                                <option value="" disabled selected>Gender</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <button class="calculate-button button transparent" type="submit">Calculate</button>
+                    </form>
+                </div>
+                <div class="calculate-table-wrapper">
+                    <table class="calculate-table">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"><b>BMR</b>  Metabolic Rate / <b>BMI</b>  Body Mass Index</td>  
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
             </div>
         </section>
     </main>
