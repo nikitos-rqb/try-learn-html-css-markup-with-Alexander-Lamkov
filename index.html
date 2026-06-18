@@ -189,7 +189,7 @@
                         <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
                     </div>
                     <form class="calculate-form">
-                        <div class="calculate-form-boby">
+                        <div class="calculate-form-body">
                             <label class="visually-hidden" for="height">Height</label>
                             <input type="number" id="height"   class="calculate-input input" placeholder="Height / cm">
                             <label class="visually-hidden" for="weight">Weight</label>
@@ -197,20 +197,17 @@
                             <label class="visually-hidden" for="age">Age</label>
                             <input type="number" id="age"   class="calculate-input input" placeholder="Age">
                             <label class="visually-hidden" for="gender">Gender</label>
-                            <input type="number" id="gender"   class="calculate-input input" placeholder="Gender">
-
-
-                            <label for="gender" class="visually-hidden">Gender</label>
-                            <select name="gender" id="gender" class="calculate-input input">
+                            <select id="gender" class="calculate-input input" required>
                                 <option value="" disabled selected>Gender</option>
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                             </select>
 
 
+
                             <label for="activity-factor" class="visually-hidden">Gender</label>
-                            <select name="gender" id="activity-factor" class="calculate-input input wide">
-                                <option value="" disabled selected>Gender</option>
+                            <select name="gender" id="activity-factor" class="calculate-input input wide" required>
+                                <option value="" disabled selected>Select an activity factor:</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                             </select>
@@ -254,5 +251,89 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-main-inner container">
+                <header class="footer-header">
+                    <a href="/" class="footer-logo">
+                        <img src="images/header-logo.png.png" alt="Kropp logo" class="footer-logo-image" width="270" height="50">
+                    </a>
+                    <p class="footer-description">please feel free to send us an e-mail at <a href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a> For any additional inquiries</p>
+                </header>
+                <div class="footer-body">
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">About</h2>
+                        <p class="footer-about">
+                            Shape up your site with Kropp, a theme especially made for fitness & gym websites.
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Working hours</h2>
+                        <div class="footer-schedule">
+                            Monday - Friday <br>
+                            <time datetime="05:30/24:00">05:30 - 24:00</time>
+                        </div>
+                        <div class="footer-schedule">
+                            Weekdays <br>
+                            <time datetime="00:00/24:00">00:00 - 24:00</time>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Location</h2>
+                        <address class="footer-address">
+                            68 Jay Street, Brooklyn, <br>
+                            NY 11201, United States
+                        </address>
+                        <div class="footer-contacts">
+                            <ul class="footer-contacts-list">
+                                <li class="footer-contacts-item">
+                                    <a href="mailto:kropp@qodeinteractive.com" class="footer-contacts-link">
+                                        kropp@qodeinteractive.com
+                                    </a>
+                                </li>
+                                <li class="footer-contacts-item">
+                                    <a href="tel:+ (1) 718 - 407 - 6400" class="footer-contacts-link">
+                                        +17184076400
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title has-arrow">Start now</h2>
+                        <form class="footer-subscribe">
+                            <label for="subscribe-email" class="visually-hidden">Email</label>
+                            <input type="email" id="subscribe-email" class="footer-subscribe-input input" placeholder="Email">
+                            <button class="footer-subscribe-button" type="submit" title="Subscribe">
+                                <span class="visually-hidden">Subscribe</span>
+                            </button>
+                        </form>
+                        <div class="footer-soc1als">
+                            <ul class="footer-soc1als-list">
+                                <li class="footer-soc1als-item">
+                                    <a href="" class="footer-soc1als-link" target="_blank"></a>
+                                </li>
+                                <li class="footer-soc1als-item">
+                                    <a href="" class="footer-soc1als-link" target="_blank"></a>
+                                </li>
+                                <li class="footer-soc1als-item">
+                                    <a href="" class="footer-soc1als-link" target="_blank"></a>
+                                </li>
+                                <li class="footer-soc1als-item">
+                                    <a href="" class="footer-soc1als-link" target="_blank"></a>
+                                </li>
+                                <li class="footer-soc1als-item">
+                                    <a href="" class="footer-soc1als-link" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-extra">
+            <div class="footer-extra-inner container"></div>
+        </div>
+    </footer>
 </body>
 </html>
